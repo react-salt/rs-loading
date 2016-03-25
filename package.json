@@ -1,0 +1,26 @@
+{
+  "name": "rs-loading",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/loading.js",
+  "scripts": {
+    "dev": "node node_modules/.bin/rs-server",
+    "pre-publish": "node node_modules/.bin/pre-publish"
+  },
+  "author": "yanweiqing",
+  "license": "MIT",
+  "files": [
+    "assets/",
+    "dist/",
+    "examples/",
+    "src/"
+  ],
+  "dependencies": {
+    "rs-ui-core": "^0.1.x",
+    "react": "^0.14.x",
+    "react-dom": "^0.14.x"
+  },
+  "devDependencies": {
+    "rs-server": "^0.1.x"
+  }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import loading from '../src/loading.js';
-import '../assets/index.less';
 
 window.loading = loading;
 
